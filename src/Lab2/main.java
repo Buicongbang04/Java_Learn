@@ -6,9 +6,6 @@ public class main {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        lab1 lab1 = new lab1();
-        lab2 lab2 = new lab2();
-        lab3 lab3 = new lab3();
 
         boolean flag = true;
         while (flag) {

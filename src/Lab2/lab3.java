@@ -3,7 +3,7 @@ package Lab2;
 import java.util.Scanner;
 
 public class lab3 {
-    void tinhTienDien() {
+    static void tinhTienDien() {
         Scanner sc = new Scanner(System.in);
         System.out.println("Nhap so dien: ");
         int n = sc.nextInt();

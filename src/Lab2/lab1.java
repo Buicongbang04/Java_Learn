@@ -3,7 +3,7 @@ package Lab2;
 import java.util.Scanner;
 
 public class lab1 {
-    public void phuongTrinhBac1() {
+    public static void phuongTrinhBac1() {
         Scanner sc = new Scanner(System.in);
 
         System.out.println("Cho phuong trinh: ax + b = 0");

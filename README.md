@@ -57,3 +57,11 @@ NetBeans giúp tăng năng suất khi phát triển ứng dụng Java.
 - Khởi tạo trước khi tạo đối tượng: Các khối static giúp bạn thực hiện các thao tác khởi tạo một lần duy nhất trước khi
   có bất kỳ đối tượng nào của lớp.
 
+# OOP: Object-Oriented Programming
+
+* Lập trình Hướng Đối Tượng (OOP - Object-Oriented Programming) là một phương pháp lập trình trong đó các đối tượng (
+  objects) và các lớp (classes) được sử dụng để tổ chức mã nguồn và dữ liệu. Java là một ngôn ngữ lập trình hoàn toàn
+  hướng đối tượng. OOP giúp tổ chức mã nguồn rõ ràng, dễ duy trì, mở rộng và tái sử dụng. Dưới đây là các nguyên lý cơ
+  bản
+  của OOP trong Java:
+
