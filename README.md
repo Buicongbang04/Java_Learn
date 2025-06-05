@@ -26,3 +26,34 @@ NetBeans giúp tăng năng suất khi phát triển ứng dụng Java.
 
 - **Primitive data types (dữ liệu nguyên thủy)** bao gồm: byte, short, int, long, float, double, boolean, char
 - **Non-primitive data types hoặc Reference types** String, Arrays and Classes (sẽ học sau)
+
+# Khái niệm về **Static** trong Java:
+
+## 1. Biến static:
+
+- Khi một biến được khai báo là static, nó sẽ là biến chung cho tất cả các đối tượng của lớp đó. Tất cả các đối tượng
+  của
+  lớp sẽ chia sẻ cùng một giá trị của biến static. Biến static sẽ được khởi tạo một lần duy nhất khi lớp được nạp vào bộ
+  nhớ, thay vì mỗi khi tạo một đối tượng
+
+## 2. Static Method
+
+- Phương thức static là phương thức mà bạn có thể gọi mà không cần tạo một đối tượng của lớp. Thay vào đó, bạn có thể
+  gọi phương thức static trực tiếp từ tên lớp.
+
+## 3. Static Block
+
+- Khối static là một đoạn mã được chạy một lần duy nhất khi lớp được nạp vào bộ nhớ (chỉ một lần duy nhất trong suốt quá
+  trình chạy ứng dụng). Nó thường được sử dụng để khởi tạo các giá trị của các biến static.
+
+### Lý do sử dụng **static**:
+
+- Chia sẻ dữ liệu: Biến static cho phép chia sẻ dữ liệu giữa các đối tượng của lớp mà không cần phải sao chép giá trị
+  của nó vào mỗi đối tượng.
+- Tiết kiệm bộ nhớ: Khi bạn có nhiều đối tượng cần sử dụng chung một giá trị, việc sử dụng biến static giúp giảm thiểu
+  việc cấp phát bộ nhớ cho mỗi đối tượng.
+- Phương thức tiện ích: Phương thức static cho phép bạn gọi các hàm tiện ích mà không cần phải tạo đối tượng. Đây là lý
+  do tại sao nhiều thư viện như Math hoặc Collections trong Java cung cấp các phương thức static.
+- Khởi tạo trước khi tạo đối tượng: Các khối static giúp bạn thực hiện các thao tác khởi tạo một lần duy nhất trước khi
+  có bất kỳ đối tượng nào của lớp.
+
