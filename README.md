@@ -10,9 +10,9 @@ NetBeans giúp tăng năng suất khi phát triển ứng dụng Java.
 
 # Lịch sử phát triển của Java
 
-1991: Ra đời với tên gọi Oak bởi Sun Microsystem
-1995: Đổi tên thành java (tên hòn đảo trồng cafe tại Indonesia) => logo của java
-2010: Oracle mua lại
+- 1991: Ra đời với tên gọi Oak bởi Sun Microsystem
+- 1995: Đổi tên thành java (tên hòn đảo trồng cafe tại Indonesia) => logo của java
+- 2010: Oracle mua lại
 
 # Java Data Type
 
