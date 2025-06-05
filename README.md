@@ -65,3 +65,46 @@ NetBeans giúp tăng năng suất khi phát triển ứng dụng Java.
   bản
   của OOP trong Java:
 
+## 1. Lớp (Class) và Đối tượng (Object)
+
+- **Lớp (Class):** Là một bản thiết kế (template) cho các đối tượng. Lớp định nghĩa các thuộc tính (fields) và phương
+  thức (methods) mà đối tượng sẽ có.
+
+- **Đối tượng (Object):** Là một thực thể cụ thể được tạo ra từ lớp, chứa các dữ liệu thực tế và có thể thực thi các
+  phương thức của lớp.
+
+## 2. Encapsulation (Đóng gói)
+
+- **Encapsulation** là việc ẩn đi các chi tiết triển khai (implementation details) và chỉ cung cấp các phương thức công
+  khai (public methods) để tương tác với đối tượng. Điều này giúp bảo vệ dữ liệu và đảm bảo tính toàn vẹn của chúng.
+
+- **Getter và Setter** là các phương thức giúp truy cập và thay đổi giá trị của các thuộc tính trong lớp.
+
+## 3. Inheritance (Kế thừa)
+
+- **Inheritance** cho phép bạn tạo ra một lớp mới từ một lớp đã có, giúp tái sử dụng mã nguồn và mở rộng các tính năng
+  của lớp cha. Lớp con kế thừa tất cả các thuộc tính và phương thức của lớp cha.
+
+- **extends:** Dùng để khai báo kế thừa trong Java.
+
+## 4. Polymorphism (Đa hình)
+
+**Polymorphism** cho phép bạn sử dụng cùng một phương thức hoặc thuộc tính với nhiều hình thức khác nhau. Đa hình có thể
+xảy ra dưới hai hình thức:
+
+- **Method Overloading (Nạp chồng phương thức):** Khi bạn khai báo nhiều phương thức có cùng tên nhưng khác về số lượng
+  hoặc kiểu tham số.
+
+- **Method Overriding (Ghi đè phương thức):** Khi lớp con cung cấp một cài đặt cụ thể của phương thức đã được kế thừa từ
+  lớp cha.
+
+## 5. Abstraction (Trừu tượng)
+
+**Abstraction** giúp ẩn đi các chi tiết cài đặt không cần thiết và chỉ cung cấp các thông tin quan trọng, cho phép người
+dùng tương tác với đối tượng mà không cần biết cách thức hoạt động bên trong của nó. Trong Java, có hai cách để thực
+hiện trừu tượng:
+
+- Lớp trừu tượng (Abstract Class): Lớp không thể tạo đối tượng trực tiếp và có thể chứa các phương thức trừu tượng (chưa
+  được cài đặt).
+
+- Giao diện (Interface): Định nghĩa một tập hợp các phương thức mà các lớp phải cài đặt.
