@@ -22,7 +22,7 @@ NetBeans giúp tăng năng suất khi phát triển ứng dụng Java.
 - **boolean** myBool = true; -> Boolean
 - **String** myText = "Hello"; -> String
 
-#### Kiểu dữ liệu được chia thành 2 nhóm:
+### Kiểu dữ liệu được chia thành 2 nhóm:
 
 - **Primitive data types (dữ liệu nguyên thủy)** bao gồm: byte, short, int, long, float, double, boolean, char
-- **Non-primitive data types** String, Arrays and Classes (sẽ học sau)
+- **Non-primitive data types hoặc Reference types** String, Arrays and Classes (sẽ học sau)
