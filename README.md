@@ -104,7 +104,7 @@ xảy ra dưới hai hình thức:
 dùng tương tác với đối tượng mà không cần biết cách thức hoạt động bên trong của nó. Trong Java, có hai cách để thực
 hiện trừu tượng:
 
-- Lớp trừu tượng (Abstract Class): Lớp không thể tạo đối tượng trực tiếp và có thể chứa các phương thức trừu tượng (chưa
-  được cài đặt).
+- **Lớp trừu tượng (Abstract Class):** Lớp không thể tạo đối tượng trực tiếp và có thể chứa các phương thức trừu tượng (
+  chưa được cài đặt).
 
-- Giao diện (Interface): Định nghĩa một tập hợp các phương thức mà các lớp phải cài đặt.
+- **Giao diện (Interface):** Định nghĩa một tập hợp các phương thức mà các lớp phải cài đặt.
